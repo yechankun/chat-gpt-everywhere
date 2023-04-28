@@ -6,11 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "test": "vite build --mode testing",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
   "devDependencies": {
     "@crxjs/vite-plugin": "^1.0.14",
+    "@rollup/plugin-terser": "^0.4.1",
     "@sveltejs/vite-plugin-svelte": "^2.0.3",
     "@tsconfig/svelte": "^4.0.1",
     "@types/node": "^18.16.1",
