@@ -20,7 +20,3 @@ npm run dev
 pnpm i
 pnpm run dev
 ```
-
-## Copyright
-
-Copyright © 2023 yechankun. All rights reserved.
