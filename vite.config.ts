@@ -25,7 +25,7 @@ export default defineConfig(({ mode }) => {
     plugins: [
       svelte({
         onwarn: (warning, handler) => {
-          const { code, frame } = warning;
+          const { code } = warning;
           if (code === 'css-unused-selector') return;
 
           handler(warning);
